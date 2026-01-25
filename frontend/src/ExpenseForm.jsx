@@ -13,7 +13,7 @@ const ExpenseForm = ({addExpense}) => {
     }
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className='bg-white rounded-lg w-md shadow-mg p-6 mb-6 flex flex-col '>
+    <form onSubmit={handleSubmit(onSubmit)} className='bg-white rounded-lg mx-15 shadow-mg p-6 mb-6 flex flex-col mt-6 '>
         <h2 className='text-xl font-semibold mb-4'>Add Expense</h2>
         <div className='mb-4'>
             <label>Description</label>
