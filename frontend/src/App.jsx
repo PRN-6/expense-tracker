@@ -5,17 +5,21 @@ import About from './pages/About'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import Expense from './pages/Expense'
+import CustomCursor from './components/CustomCursor'
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/expense" element={<Expense />} />
-      </Routes>
-    </Router>
+    <>
+      {/* <CustomCursor /> */}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/expense" element={<Expense />} />
+        </Routes>
+      </Router>
+    </>
   )
 }
 
